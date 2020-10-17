@@ -9,7 +9,11 @@ class MainTest {
 
     @Test
     public void MainInstansiatesCorrectly_True(){
-        Main testMain=new Main();
+        Main testMain=setupNewMain();
         assertTrue(testMain instanceof  Main);
+    }
+
+    private Main setupNewMain(){
+        return new Main();
     }
 }
