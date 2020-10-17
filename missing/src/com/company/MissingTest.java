@@ -18,6 +18,14 @@ public class MissingTest {
         int expected = 0;
 
         Missing missingInstance = new Missing();
-        assertEquals(0, missingInstance.getMissingNumber(emptyTestNums));
+        assertEquals(expected, missingInstance.getMissingNumber(emptyTestNums));
+    }
+
+    @Test
+    public void getMissingReturnsValueWhenNumbersPositive() {
+        int[] testNums = {1, 2, 4, 6, 3, 7, 8};
+        int expected = 5;
+        Missing missingInstance = new Missing();
+        assertEquals(expected, missingInstance.getMissingNumber(testNums));
     }
 }
