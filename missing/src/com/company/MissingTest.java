@@ -28,4 +28,12 @@ public class MissingTest {
         Missing missingInstance = new Missing();
         assertEquals(expected, missingInstance.getMissingNumber(testNums));
     }
+
+    @Test
+    public void getMissingReturnsValueWhenNumbersNegatives() {
+        int[] testNums = {-1, -2, -4, -6, -3, -7, -8};
+        int expected = -5;
+        Missing missingInstance = new Missing();
+        assertEquals(expected, missingInstance.getMissingNumber(testNums));
+    }
 }
