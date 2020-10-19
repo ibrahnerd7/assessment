@@ -1,6 +1,6 @@
 package com.company;
 
-public class ReverseInGroupsOfFour {
+public class Reverse {
     public String reverseInGroupsOfFour(String string) {
         String reversed = "";
         String regex = "(?<=\\G.{4})";
