@@ -7,8 +7,7 @@ public class Reverse {
         String[] stringGroups = string.split(regex);
 
         for (String stringSubArray : stringGroups) {
-            StringBuilder stringBuilder = new StringBuilder(stringSubArray);
-            reversed = stringBuilder.reverse().toString();
+           reversed= reversed.concat(new StringBuilder(stringSubArray).reverse().toString());
         }
 
         return reversed;

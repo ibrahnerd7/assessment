@@ -14,5 +14,11 @@ public class ReverseTest {
 
     @Test
     public void reverseInGroupsOfFour() {
+        String testString = "Lorem at";
+        String expected = "eroLta m";
+
+        Reverse reverseInstance = new Reverse();
+        assertEquals(expected,reverseInstance.reverseInGroupsOfFour(testString));
     }
+
 }

@@ -2,12 +2,17 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        int [] myNums={3,5,4,1};
+        int[] testNums = {3, 5, 4, 1};
+        String testString = "Lorem at";
 
-        Missing missing=new Missing();
-        int missingNum= missing.getMissingNumber(myNums);
+        Missing missing = new Missing();
+        int missingNum = missing.getMissingNumber(testNums);
 
         System.out.println(missingNum);
+
+        Reverse reverseInstance = new Reverse();
+        String reversedString = reverseInstance.reverseInGroupsOfFour(testString);
+        System.out.println(reversedString);
     }
 
 
