@@ -1,4 +1,4 @@
-package com.company;
+package com.company.fistproblem;
 
 import org.junit.Test;
 

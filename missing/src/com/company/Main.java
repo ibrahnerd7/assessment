@@ -1,5 +1,8 @@
 package com.company;
 
+import com.company.fistproblem.Missing;
+import com.company.secondproblem.Reverse;
+
 public class Main {
     public static void main(String[] args) {
         int[] testNums = {3, 5, 4, 1};

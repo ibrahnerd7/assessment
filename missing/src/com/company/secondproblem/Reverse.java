@@ -1,4 +1,4 @@
-package com.company;
+package com.company.secondproblem;
 
 public class Reverse {
     public String reverseInGroupsOfFour(String string) {

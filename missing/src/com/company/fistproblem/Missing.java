@@ -1,4 +1,4 @@
-package com.company;
+package com.company.fistproblem;
 
 import java.util.Arrays;
 
