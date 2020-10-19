@@ -1,6 +1,6 @@
 CREATE database education;
 
-CREATE TABLE institution (
+CREATE TABLE IF NOT EXISTS institution (
                              institutionid INT(11) NOT NULL AUTO_INCREMENT,
                              name VARCHAR(250),
                              PRIMARY KEY(institutionid)
